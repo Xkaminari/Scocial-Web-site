@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    text-align: center;
+    height: 125px;
+}
+
+h1 {
+    padding: 20px 0 30px 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------MAIN-------------------------------------- */
+/* ------------------------------------------------------------------------------------ */
+
+/* ------------------------ASIDE------------------------ */
+
+main {
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.Another-pages {
+    margin-bottom: 20px;
+}
+
+.aside-but-list {
+    list-style: none;
+    padding: 10px 0 0 0;
+    text-align: left;
+}
+
+.aside-but-list li {
+    margin: 10px 20px 5px 20px;
+    display: inline-block;
+}
+
+.aside-but {
+    border: 0;
+    padding: 15px 35px;
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+}
+
+.aside-but:hover {
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+}
+
+.icon-aside {
+    margin-right: 20px;
+}
+
+/* ------------------------POST------------------------ */
+
+.post {
+    background-color: #FFFFFF;
+    /* display: inline-block; */
+    width: 85vw;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 1px solid #DBDBDB;
+    padding: 15px 20px 0px 20px;
+}
+
+.PP {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.post-oldness {
+    color: #00000061;
+    margin-bottom: 20px;
+}
+
+.img-post {
+    width: 100%;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.post-text {
+    color: #00000099;
+    margin-bottom: 20px;
+}
+
+.bottom-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-button {
+    margin: 10px 0 10px 0;
+    color: #BDBDBD;
+}
+
+.coment-button{
+    margin: 10px 0 10px 0;
+    color: #BDBDBD;
+}
+
+/* --------------------ASIDE-SUGG--------------------- */
+
+.Suggestions{
+    text-align: left;
+    display: inline-block;
+    width: 90vw;
+}
+
+.sugg {
+    margin: 20px 10px;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.sugg img {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+@media screen and (min-width: 1000px) {
+    
+    main {
+        display: flex;
+        padding-top: 50px;
+    }
+
+    .Another-pages {
+        display: inline-block;
+        width: 25vw;
+    }
+    
+    .Suggestions {
+        display: inline-block;
+        width: 20vw;
+        margin-right: 2.5vw;
+    }
+
+    .main-content {
+        display: inline-block;
+        margin-right: 2.5vw;
+    }
+
+    .post {
+        width: 50vw;
+    }
+  }
